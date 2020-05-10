@@ -2,6 +2,8 @@ import React from 'react'
 import { BoldFont } from './UiComponents'
 import styled from 'styled-components';
 import { ExtraBoldFont } from './StyledComponents';
+import { connect } from 'react-redux'
+
 
 const Div = styled.div`
     display:grid;
@@ -19,13 +21,21 @@ const Avatar = styled.img`
     border:2px solid #000;
 `;
 
-const Basket = styled.div`
+const Basket = styled.button`
+    background:none;
+    border:none;
+    outline:none;
     justify-self:end;
     grid-column:2/3;
     z-index:1;
     img{
         height:40px;
         width:40px;
+    }
+    &:hover{
+        cursor: pointer;
+        transition: transform 100ms ease-in;
+        transform: translateY(-5px);
     }
 `;
 const CartItem = styled.div`
@@ -55,7 +65,7 @@ const LandingArea = styled.div`
     grid-template-columns:repeat(5,1fr);
 `;
 
-function Header() {
+function Header({ items }) {
     return (
         <Div>
             <User>
@@ -65,11 +75,18 @@ function Header() {
             <Basket>
                 <img src={require("../images/basket.svg")} alt="basket" />
                 <CartItem>
-                    <ExtraBoldFont size="18px">{5}</ExtraBoldFont>
+                    <ExtraBoldFont size="18px">{items.length}</ExtraBoldFont>
                 </CartItem>
             </Basket>
         </Div>
     )
 }
 
-export { Header, LandingArea }
+const mapStateToProps = state => {
+    return {
+        items: state.cart.items
+    }
+}
+
+export default connect(mapStateToProps, null)(Header)
+export { LandingArea }
