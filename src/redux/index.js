@@ -1,3 +1,3 @@
-export { buyCake } from "./cake/cakeActions"
-export { buyIceCream } from './icecream/iceCreamAction'
-export { getUser, setUser } from './user/userAction'
+export { viewItem, setItem } from "./viewItem/viewAction"
+export { viewCategory, setCategory } from "./category/categoryAction"
+export { addToCart } from "./cart/cartAction"

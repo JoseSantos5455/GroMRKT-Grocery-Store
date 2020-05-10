@@ -1,18 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
 import ItemContainer from './ItemContainer';
-import vegetables from './Vegetables.json'
+import Groceries from './GroceryStore.json'
+// import { viewCategory } from '../redux'
+import { connect } from 'react-redux'
 
 const Container = styled.div`
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    grid-template-rows:repeat(4,auto);
-    gap:50px;
     padding:50px;
     box-sizing:border-box;
     overflow-y:scroll;
-    grid-column:3/8;
-    grid-row: 5/16 ;
+    
     margin-right:24px;
     background:#fff;
 
@@ -31,10 +28,24 @@ const Container = styled.div`
     }
 `;
 
-function Grid() {
+function Grid(props) {
+
+    let GroceryItems = []
+    switch (props.category) {
+        case 'Vegetables': GroceryItems = Groceries[0]
+            break;
+        case 'Fruits': GroceryItems = Groceries[1]
+            break;
+        case 'Dairy': GroceryItems = Groceries[2]
+            break;
+        case 'Snacks': GroceryItems = Groceries[3]
+            break;
+        default: return
+    }
+
     return (
-        <Container>
-            {vegetables.map((vegetable, key) => (
+        <Container className="grid-container">
+            {GroceryItems.map((vegetable, key) => (
                 <ItemContainer
                     key={key}
                     name={vegetable.name}
@@ -47,4 +58,14 @@ function Grid() {
     )
 }
 
-export default Grid
+const mapStateToProps = state => {
+    return {
+        category: state.category.category
+    }
+}
+// const mapDispatchToProps = dispatch => {
+//     return {
+//         viewCategory: () => dispatch(viewCategory()),
+//     }
+// }
+export default connect(mapStateToProps, null)(Grid)

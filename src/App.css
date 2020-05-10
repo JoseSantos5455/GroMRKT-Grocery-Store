@@ -22,4 +22,5 @@
 .App {
   font-family: "GoogleSansBold";
   height: 100vh;
+  min-width: 750px;
 }

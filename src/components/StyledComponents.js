@@ -10,8 +10,6 @@ const Container = styled.div`
 
 const LeftDiv = styled.div`
     background:#F0F4F7;
-    grid-column:1/3;
-    grid-row:1/4;
     padding:20px 40px;
     display:flex;
     flex-direction:column;
@@ -19,15 +17,11 @@ const LeftDiv = styled.div`
 `;
 const LeftBottomDiv = styled.div`
     background:#F0F4F7;
-    grid-column:1/3;
-    grid-row:5/16;
     padding:20px 40px;
 `;
 
 const TopRightDiv = styled.div`
     background:#FFF;
-    grid-column:3/8;
-    grid-row:1/4;
     padding:20px 30px;
 `;
 const BottomRightDiv = styled.div`
@@ -37,17 +31,14 @@ const BottomRightDiv = styled.div`
 `;
 const BoldFont = styled.div`
     font-family:'GoogleSansBold';
-    font-size:${props => props.size ? props.size : "24px"};
     color:${props => props.color ? props.color : "#000"};
 `;
 const RegularFont = styled.div`
     font-family:'GoogleSansReg';
-    font-size:${props => props.size ? props.size : "24px"};
     color:${props => props.color ? props.color : "#000"};
 `;
 const ExtraBoldFont = styled.div`
     font-family:'GilroyExtraBold';
-    font-size:${props => props.size ? props.size : "24px"};
     color:${props => props.color ? props.color : "#000"};
 `;
 const Logo = styled.div`
@@ -78,7 +69,7 @@ const Input = styled.input`
     width:100%;
 `;
 
-const Search = styled.div`
+const Search = styled.button`
     border:none;
     outline:none;
     font-family:'GoogleSansBold';
@@ -96,14 +87,12 @@ const CategoryDiv = styled.div`
     display:flex;
     justify-content:space-around;
     align-items:center;
-    padding:32px 0;
+    
     grid-column: 1/5;
     grid-row: 4/5;
 `;
 const Cover = styled.div`
     background:#F0F4F7;
-    grid-column:1/3;
-    grid-row:4/5;
     z-index:-1;
 `;
 
