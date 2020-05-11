@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="199" height="117" viewBox="0 0 199 117">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.064" y1="0.124" x2="0.943" y2="0.917" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8d8f97"/>
+      <stop offset="1" stop-color="#686868"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_13" data-name="Group 13" transform="translate(-297 -1425)">
+    <rect id="Rectangle_36" data-name="Rectangle 36" width="199" height="117" rx="4" transform="translate(297 1425)" fill="url(#linear-gradient)"/>
+    <text id="VISA" transform="translate(468 1457)" fill="#fff" font-size="16" font-family="Moule-Bold, Moule" font-weight="700"><tspan x="-30.523" y="0">VISA</tspan></text>
+    <rect id="Rectangle_37" data-name="Rectangle 37" width="23" height="23" rx="2" transform="translate(317 1444)" fill="#fdd900"/>
+    <text id="_1234_4567_8910_1112" data-name="1234    4567    8910    1112" transform="translate(318 1491)" fill="#fff" font-size="14" font-family="GoogleSans-Regular, Google Sans"><tspan x="0" y="0" xml:space="preserve">1234    4567    8910    1112</tspan></text>
+    <text id="CARD_HOLDER" data-name="CARD HOLDER" transform="translate(358 1510)" fill="#fff" font-size="6" font-family="GoogleSans-Regular, Google Sans"><tspan x="-40.758" y="0">CARD HOLDER</tspan></text>
+    <text id="EXPIRES" transform="translate(452 1510)" fill="#fff" font-size="6" font-family="GoogleSans-Regular, Google Sans"><tspan x="0" y="0">EXPIRES</tspan></text>
+    <text id="John_Doe" data-name="John Doe" transform="translate(315 1523)" fill="#fff" font-size="10" font-family="GoogleSans-Bold, Google Sans" font-weight="700"><tspan x="0" y="0">John Doe</tspan></text>
+    <text id="_12_20" data-name="12/20" transform="translate(449 1523)" fill="#fff" font-size="10" font-family="GoogleSans-Bold, Google Sans" font-weight="700"><tspan x="0" y="0">12/20</tspan></text>
+  </g>
+</svg>

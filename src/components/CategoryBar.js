@@ -39,19 +39,19 @@ function CategoryBar(props) {
         <CategoryDiv className="category-bar">
             <Tab onClick={() => updateCategory('Vegetables')}
                 background={state.veg ? "#f9c907" : "none"}>
-                <BoldFont color={state.veg ? "#fff" : "#5B6064"}>Vegetables</BoldFont>
+                <BoldFont className="category-name" color={state.veg ? "#fff" : "#5B6064"}>Vegetables</BoldFont>
             </Tab>
             <Tab onClick={() => updateCategory('Fruits')}
                 background={state.fru ? "#f9c907" : "none"}>
-                <BoldFont color={state.fru ? "#fff" : "#5B6064"}>Fruits</BoldFont>
+                <BoldFont className="category-name" color={state.fru ? "#fff" : "#5B6064"}>Fruits</BoldFont>
             </Tab>
             <Tab onClick={() => updateCategory('Dairy')}
                 background={state.dai ? "#f9c907" : "none"}>
-                <BoldFont color={state.dai ? "#fff" : "#5B6064"}>Dairy</BoldFont>
+                <BoldFont className="category-name" color={state.dai ? "#fff" : "#5B6064"}>Dairy</BoldFont>
             </Tab>
             <Tab onClick={() => updateCategory('Snacks')}
                 background={state.sna ? "#f9c907" : "none"}>
-                <BoldFont color={state.sna ? "#fff" : "#5B6064"}>Snacks & Beverages</BoldFont>
+                <BoldFont className="category-name" color={state.sna ? "#fff" : "#5B6064"}>Snacks & Beverages</BoldFont>
             </Tab>
 
         </CategoryDiv>
