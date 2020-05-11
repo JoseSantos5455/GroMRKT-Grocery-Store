@@ -3,6 +3,7 @@ import { BoldFont } from './UiComponents'
 import styled from 'styled-components';
 import { ExtraBoldFont } from './StyledComponents';
 import { connect } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 
 const Div = styled.div`
@@ -73,10 +74,12 @@ function Header({ items }) {
                 <BoldFont>John Doe</BoldFont>
             </User>
             <Basket>
-                <img src={require("../images/basket.svg")} alt="basket" />
-                <CartItem>
-                    <ExtraBoldFont size="18px">{items.length}</ExtraBoldFont>
-                </CartItem>
+                <Link to="/cart" className="link">
+                    <img src={require("../images/basket.svg")} alt="basket" />
+                    <CartItem>
+                        <ExtraBoldFont size="18px">{items.length}</ExtraBoldFont>
+                    </CartItem>
+                </Link>
             </Basket>
         </Div>
     )
