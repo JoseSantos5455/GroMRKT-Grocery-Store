@@ -26,7 +26,9 @@ function Cart({ items }) {
                         </Link>
                         <Total className='total'>
                             <BoldFont className="big-font">Grand Total : </BoldFont>
-                            <div className="total-price">$500</div>
+                            <div className="total-price">$ {
+                                items.reduce((a, b) => a + b['totalCostForItem'], 0)
+                            }</div>
                         </Total>
                     </div>
                 </ItemDetails>
