@@ -94,7 +94,6 @@ export const Input = styled.input`
     box-sizing:border-box;
     border-bottom: 1px solid #ddd;
     font-family:'GoogleSansBold';
-    font-size:18px;
     color:#fff;
 
 `;

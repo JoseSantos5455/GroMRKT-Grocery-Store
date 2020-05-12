@@ -43,8 +43,19 @@ const Div = styled.div`
     gap:18px;
 `;
 
-function SelectedItem({ name, oldPrice, newPrice, qty, addToCart }) {
+function SelectedItem({ name, oldPrice, newPrice, qty, addToCart, cartItems }) {
     const [itemQty, updateQty] = useState(1)
+
+    const checkAndAddToCart = cartObj => {
+        if (!cartItems.some(item => item.name === cartObj.name)) {
+            addToCart(cartObj)
+        }
+        else {
+            console.log('Item already added.')
+        }
+
+    }
+
     return (
         <Div>
             <ExtraBoldFont color="#121212" className="item-title">{name}</ExtraBoldFont>
@@ -68,7 +79,7 @@ function SelectedItem({ name, oldPrice, newPrice, qty, addToCart }) {
                 </Button>
             </SelectQtyDiv>
             <Button radius="50px" className="add-to-basket"
-                onClick={() => addToCart({
+                onClick={() => checkAndAddToCart({
                     name,
                     newPrice,
                     qty,
@@ -87,7 +98,8 @@ const mapStateToProps = state => {
         name: state.view.name,
         oldPrice: state.view.oldPrice,
         newPrice: state.view.newPrice,
-        qty: state.view.qty
+        qty: state.view.qty,
+        cartItems: state.cart.items
     }
 }
 

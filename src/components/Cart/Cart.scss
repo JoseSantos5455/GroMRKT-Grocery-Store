@@ -91,3 +91,15 @@
         background: rgb(255, 208, 0);
     }
 }
+@media (min-width:1278px) and (max-width:1640px){
+    .card{
+        margin: 20px auto;
+        width:240px;
+    }
+}
+@media (min-width:900px) and (max-width:1278px){
+    .card{
+        margin: 20px auto;
+        width:200px;
+    }
+}
