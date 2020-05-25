@@ -1,0 +1,39 @@
+.nav-container{
+    width: 90%;
+}
+
+.nav-container svg{
+    width:22px;
+    height:22px;
+    margin-right: 10px;
+}
+
+.active{
+    color:#121212;
+}
+
+.in-active{
+    color: #c0c0c0; 
+}
+
+hr{
+    margin: 0;
+    padding: 0;
+    border:0.5px solid #fff;
+}
+.header{
+    grid-column:1/7;
+    grid-row: 1/2;
+}
+.label1{
+    grid-column: 1/5;
+    grid-row: 2/3;
+}
+.graph{
+    grid-column: 1/5;
+    grid-row: 3/11;
+}
+.transaction{
+    grid-column: 5/7;
+    grid-row: 2/11;
+}

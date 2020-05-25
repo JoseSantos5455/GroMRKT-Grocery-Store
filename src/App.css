@@ -1,0 +1,26 @@
+/*---------------------------------- fonts ----------------------------------*/
+@font-face {
+  font-family: "GoogleSansBold";
+  src: url("./fonts/GoogleSans-Bold.ttf");
+}
+@font-face {
+  font-family: "GoogleSansReg";
+  src: url("./fonts/GoogleSans-Regular.ttf");
+}
+@font-face {
+  font-family: "GilroyExtraBold";
+  src: url("./fonts/Gilroy-ExtraBold.otf");
+}
+@font-face {
+  font-family: "GilroyBold";
+  src: url("./fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: "GilroyLight";
+  src: url("./fonts/Gilroy-Light.ttf");
+}
+.App {
+  font-family: "GoogleSansBold";
+  height: 100vh;
+  min-width: 750px;
+}

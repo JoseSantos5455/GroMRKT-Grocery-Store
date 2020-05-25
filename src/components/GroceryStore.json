@@ -1,0 +1,196 @@
+[
+    [
+        {
+            "name": "Cabbage",
+            "oldPrice": "32.00",
+            "newPrice": "25.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Chilli",
+            "oldPrice": "20.00",
+            "newPrice": "17.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Carrot",
+            "oldPrice": "30.00",
+            "newPrice": "29.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Brinjal",
+            "oldPrice": "22.00",
+            "newPrice": "21.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Beetroot",
+            "oldPrice": "30.00",
+            "newPrice": "25.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Belpepper",
+            "oldPrice": "35.00",
+            "newPrice": "32.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Garlic",
+            "oldPrice": "50.00",
+            "newPrice": "45.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Lettuce",
+            "oldPrice": "38.00",
+            "newPrice": "29.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Onion",
+            "oldPrice": "50.00",
+            "newPrice": "40.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Potato",
+            "oldPrice": "35.00",
+            "newPrice": "30.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Radish",
+            "oldPrice": "32.00",
+            "newPrice": "22.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Tomato",
+            "oldPrice": "45.00",
+            "newPrice": "35.00",
+            "qty": "KG"
+        }
+    ],
+    [
+        {
+            "name": "Apple",
+            "oldPrice": "70.00",
+            "newPrice": "65.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Bananas",
+            "oldPrice": "25.00",
+            "newPrice": "20.00",
+            "qty": "Dz"
+        },
+        {
+            "name": "Mango",
+            "oldPrice": "100.00",
+            "newPrice": "90.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Cherry",
+            "oldPrice": "45.00",
+            "newPrice": "35.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Pear",
+            "oldPrice": "25.00",
+            "newPrice": "20.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Orange",
+            "oldPrice": "40.00",
+            "newPrice": "32.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Pineapple",
+            "oldPrice": "30.00",
+            "newPrice": "25.00",
+            "qty": "Ps"
+        },
+        {
+            "name": "Strawberry",
+            "oldPrice": "200.00",
+            "newPrice": "175.00",
+            "qty": "KG"
+        },
+        {
+            "name": "Watermelon",
+            "oldPrice": "60.00",
+            "newPrice": "49.00",
+            "qty": "Ps"
+        }
+    ],
+    [
+        {
+            "name": "Milk",
+            "oldPrice": "60.00",
+            "newPrice": "50.00",
+            "qty": "Lt"
+        },
+        {
+            "name": "Bread",
+            "oldPrice": "30.00",
+            "newPrice": "20.00",
+            "qty": "Pk"
+        },
+        {
+            "name": "Cheese",
+            "oldPrice": "90.00",
+            "newPrice": "85.00",
+            "qty": "Pk"
+        },
+        {
+            "name": "Eggs",
+            "oldPrice": "9.00",
+            "newPrice": "8.00",
+            "qty": "Ps"
+        },
+        {
+            "name": "Cookies",
+            "oldPrice": "30.00",
+            "newPrice": "25.00",
+            "qty": "Pk"
+        },
+        {
+            "name": "Chocolates",
+            "oldPrice": "50.00",
+            "newPrice": "40.00",
+            "qty": "Ps"
+        }
+    ],
+    [
+        {
+            "name": "Coke",
+            "oldPrice": "45.00",
+            "newPrice": "32.00",
+            "qty": "Lt"
+        },
+        {
+            "name": "Beer",
+            "oldPrice": "150.00",
+            "newPrice": "140.00",
+            "qty": "Lt"
+        },
+        {
+            "name": "Juice",
+            "oldPrice": "50.00",
+            "newPrice": "40.00",
+            "qty": "L"
+        },
+        {
+            "name": "Popcorn",
+            "oldPrice": "30.00",
+            "newPrice": "20.00",
+            "qty": "Pk"
+        }
+    ]
+]
